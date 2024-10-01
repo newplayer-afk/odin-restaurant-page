@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.description,
+.photo {
+    /*CENTER THE TEXT AND PHOTO*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*ADD PADDING*/
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button {
+}
