@@ -4,4 +4,4 @@ import {homePage} from "./assets/home.js"
 
 const button = document.querySelector("#home")
 
-button.addEventListener("click", () => {homePage.addMain()})
+button.addEventListener("click", () => {homePage.addContent()})

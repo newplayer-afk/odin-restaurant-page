@@ -40,3 +40,14 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+.kbbq-photo{
+    height: auto;
+    width: 700px;
+}
+
+.description{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
