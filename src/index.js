@@ -1,3 +1,7 @@
 import "./styles.css"
 
-console.log("testing 1 2 3")
+import {homePage} from "./assets/home.js"
+
+const button = document.querySelector("#home")
+
+button.addEventListener("click", () => {homePage.addMain()})
