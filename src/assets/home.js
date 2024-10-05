@@ -1,31 +1,24 @@
 export {homePage};
-import image_import from "./images/kbbq.jpeg"
+import buko_pie from "./images/buko.jpg"
 
 const homePage = (function () {
     // DEFINE ALL VARIABLES
     const content = document.querySelector("#content")
     const main = document.createElement("main")
-    const divDescription = document.createElement("div")
-    divDescription.classList.add('description')
-    const divPhoto = document.createElement("div")
-    divPhoto.classList.add('photo')
-    const kbbq_image = document.createElement("img")
-    kbbq_image.src = image_import
-    kbbq_image.classList.add('kbbq-photo')
-    const h1 = document.createElement("h1")
-    const p = document.createElement("p")
+    const buko_pie_image = document.createElement("img")
+    buko_pie_image.src = buko_pie
     
     const addContent = () => {
+        content.innerHTML = '';
         content.appendChild(main)
-        main.appendChild(divDescription)
-        main.appendChild(divPhoto)
-        divDescription.appendChild(h1)
-        divDescription.appendChild(p)
-        h1.textContent = "Welcome to Code's Korean BBQ Restaurant"
-        p.textContent = "We serve traditional Korean dishes, and Korean B.B.Q." +
-                    "Try our grilled meat specialties, whether you prefer beef, pork, or chicken. Seafood specialties are also available." +
-                    "You may want to taste the Mapo BBQ, which is Korean-style stew (Jjigye), or eat the Jeongol and more."
-        divPhoto.appendChild(kbbq_image)
+        main.appendChild(buko_pie_image)
+
+        /*
+        h2.textContent = "Welcome to the Best Authentic Buko Pie shop in Toronto!"
+        p.textContent = 'Buko pie is a beloved Filipino dessert that showcases the tropical flavors of the coconut. The name "buko" is the Tagalog word for coconut, and this pie is a testament to the versatility and richness of this fruit.'
+        */
+
+
     }
     
     

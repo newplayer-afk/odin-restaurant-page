@@ -9,45 +9,54 @@ main {
     align-items: center;
 }
 
-.description,
-.photo {
-    /*CENTER THE TEXT AND PHOTO*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /*ADD PADDING*/
-
-}
-
 header {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.horizontal-container {
-    display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100vw;
+    height: 10vh;
+    border: 2px solid rgb(173, 173, 173);
+    background-image: url(assets/images/tropical_trees_image.jpg);
 }
 
-.description,
-.photo {
-    background-color: rgb(161, 0, 0);
-    height: 75vh;
-    width: 50vw;
-    border: 2px solid black;
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 8vh;
+    padding: 1vh 0vh 1vh;
+    gap: 10px;
+    padding-right: 10px;
 }
 
-.kbbq-photo{
-    height: auto;
-    width: 700px;
+button{
+    width: 8vw;
+    background: rgba(23, 140, 0, 0);
+    border: 0px;
+}
+h3{
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
 }
 
-.description{
-    text-align: center;
+/*CREATING VERNAS BUKO PIE LOGO HERE*/
+.logo {
+    width: auto;
     display: flex;
-    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+h1#vernas {
+    color: red;
+    font: bold 2.25em "Bebas Neue"
+    
+}
+
+h1#buko-pie {
+    font-family: cursive;
 }
