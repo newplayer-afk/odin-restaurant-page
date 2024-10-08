@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    background-color: blue;
+}
+
+
+.test1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
