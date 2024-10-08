@@ -3,6 +3,17 @@ import { mainContent } from "..";
 
 const home = (function() {
     const add = () => {
+    mainContent.appendChild(main)
+    //DEFINE INTRO, LS, RS
+    const intro = document.createElement("div")
+    intro.classList.add("intro")
+    const left_side = document.createElement("div")
+    left_side.classList.add("ls-intro")
+    const right_side = document.createElement("div")
+    right_side.classList.add("rs-intro")
+    intro.appendChild(left_side)
+    intro.appendChild(right_side)
+
     }  
     return {add}
 })();

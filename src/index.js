@@ -5,6 +5,7 @@ import { menu } from "./assets/menu.js";
 
 //EXPORT STUFF
 export const mainContent = document.querySelector("#content")
+export const main = document.createElement("main")
 
 //CLEAR CONTENT DIV
 function clear() {
