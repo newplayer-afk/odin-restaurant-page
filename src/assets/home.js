@@ -4,7 +4,7 @@ import { mainContent } from "..";
 const home = (function() {
     const add = () => {
         const testDiv = document.createElement("div")
-        testDiv.classList.add("test")
+        testDiv.classList.add("test1")
         testDiv.textContent = "hi"
         mainContent.appendChild(testDiv)
     }  

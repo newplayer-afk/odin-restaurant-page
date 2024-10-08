@@ -10,8 +10,14 @@ header{
 }
 
 
-.test{
+.test1{
     background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.test2{
+    background-color: green;
     width: 100px;
     height: 100px;
 }
