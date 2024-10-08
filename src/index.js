@@ -8,7 +8,7 @@ import {menu} from "./assets/menu.js"
 homePage.addContent()
 
 const logoButton = document.querySelector("#logo")
-homeButton.addEventListener("click", () => {homePage.addContent()})
+logoButton.addEventListener("click", () => {homePage.addContent()})
 
 const homeButton = document.querySelector("#home")
 homeButton.addEventListener("click", () => {homePage.addContent()})
