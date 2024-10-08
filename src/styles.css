@@ -19,3 +19,10 @@ header{
 .intro{
     display: flex;
 }
+
+/*ADJUST STYLING ON THIS PORTION, THIS IS TO TEST IF THE WEBPAGE IS UPDATING AS PROMISED*/
+.menu{
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+}

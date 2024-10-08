@@ -1,12 +1,12 @@
 export {home}; 
-import { mainContent, main } from "..";
+import { mainContent } from "..";
 
 const home = (function() {
     const add = () => {
     //DEFINE INTRO
     const intro = document.createElement("div")
     intro.classList.add("intro")
-    main.append(intro)
+    mainContent.appendChild(intro)
     
     //DEFINE LS, RS
     const left_side = document.createElement("div")

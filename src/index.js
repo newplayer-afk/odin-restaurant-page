@@ -8,13 +8,11 @@ export const mainContent = document.querySelector("#content")
 export const main = document.createElement("main")
 
 //HOME PAGE ON STARTUP
-clear()
 home.add()
 
 //CLEAR CONTENT DIV
 function clear() {
-    main.innerHTML = ""
-    mainContent.appendChild(main)
+    mainContent.innerHTML = ""
 }
 
 const homeButton = document.querySelector("#home")
@@ -29,13 +27,13 @@ menuButton.addEventListener("click", () => {
     menu.add()
 })
 
-const aboutButton = document.querySelector("#menu")
+const aboutButton = document.querySelector("#about")
 aboutButton.addEventListener("click", () => {
     clear()
     //about.add()
 })
 
-const contactButton = document.querySelector("#menu")
+const contactButton = document.querySelector("#contact")
 contactButton.addEventListener("click", () => {
     clear()
     //contact.add()
