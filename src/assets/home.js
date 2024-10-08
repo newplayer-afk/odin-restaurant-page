@@ -1,17 +1,20 @@
+
 export {homePage};
 import owners from "./images/owners.jpg"
 
-const homePage = (function () {
+const homePage = (function(){
+    const content = document.querySelector("#content")
+    const clear = () => {
+        content.innerHTML = '';
+    }
     const owners_import = owners
     // DEFINE ALL VARIABLES
-    const content = document.querySelector("#content")
     const main = document.createElement("main")
     const owners_image = new Image()
     owners_image.src = owners_import
     owners_image.classList.add("owners-image")
     
-    const addContent = () => {
-        content.innerHTML = '';
+    const add = () => {
         content.appendChild(main)
         /*
         Here we will add content to main. We will start by adding an introduction with a left side div and right side div
@@ -51,6 +54,6 @@ const homePage = (function () {
     
     
     
-    return {addContent}
+    return {add, clear}
 })();
 
