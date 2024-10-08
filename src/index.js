@@ -7,9 +7,14 @@ import { menu } from "./assets/menu.js";
 export const mainContent = document.querySelector("#content")
 export const main = document.createElement("main")
 
+//HOME PAGE ON STARTUP
+clear()
+home.add()
+
 //CLEAR CONTENT DIV
 function clear() {
-    mainContent.innerHTML = ""
+    main.innerHTML = ""
+    mainContent.appendChild(main)
 }
 
 const homeButton = document.querySelector("#home")
