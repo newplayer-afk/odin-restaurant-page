@@ -23,5 +23,14 @@ menuButton.addEventListener("click", () => {
     menu.add()
 })
 
+const aboutButton = document.querySelector("#menu")
+aboutButton.addEventListener("click", () => {
+    clear()
+    //about.add()
+})
 
-
+const contactButton = document.querySelector("#menu")
+contactButton.addEventListener("click", () => {
+    clear()
+    //contact.add()
+})
