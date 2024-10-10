@@ -6,6 +6,8 @@ header{
 }
 
 #logo{
+    width: auto;
+    height: auto;
 }
 
 .ls-intro,
