@@ -1,5 +1,6 @@
 export {home}; 
 import { mainContent } from "..";
+import widejoy from './images/widejoy.png'
 
 const home = (function() {
     const add = () => {
@@ -16,6 +17,11 @@ const home = (function() {
     intro.appendChild(left_side)
     intro.appendChild(right_side)
 
+
+    //TEST IMAGE
+    const test_image = new Image()
+    test_image.src = widejoy
+    right_side.appendChild(test_image)
     }  
     return {add}
 })();
